@@ -1,0 +1,73 @@
+.clientDetailContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+
+  .clientDetail {
+    width: 60%;
+    border: 2px solid lightgray;
+    border-radius: 10px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 50px;
+
+    form {
+      width: 90%;
+
+      .gridItem {
+        display: flex;
+        flex-direction: column;
+        height: 110px;
+        margin: 3px 0;
+
+        label {
+          font-size: 16px;
+          color: grey;
+          margin: 5px 0;
+        }
+
+        input{
+          font-size: 16px;
+          padding: 10px;
+          border-radius: 5px;
+        }
+
+        .genderRadio {
+          font-size: 16px;
+        }
+
+        .fileInputContainer {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+
+          input {
+            font-size: 16px;
+            padding: 10px;
+            border-radius: 5px;
+          }
+
+          button {
+            width: 80px;
+            height: 22px;
+            font-size: 16px;
+            padding: 2px;
+          }
+        }
+
+      }
+
+      .nextBtn {
+        width: 100%;
+        align-items: flex-end;
+      }
+    }
+  }
+
+
+}

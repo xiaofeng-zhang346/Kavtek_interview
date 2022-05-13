@@ -1,0 +1,24 @@
+
+.usersTableContainer {
+  width: 100%;
+  height: auto;
+  margin: 5px 10px;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  justify-content: center;
+  align-items: center;
+  h1{
+    width: 60%;
+  }
+  .tableContainer{
+    width: 60%;
+    border: solid 2px lightgray;
+    border-radius: 10px;
+  }
+  .paginationContainer{
+    width: 60%;
+    height: auto;
+    overflow: hidden;
+  }
+}
